@@ -39,15 +39,15 @@ void test(int columnNumber, string exp){
   else
     status = "Error";
 
-  cout << std::setw(90) << testCase << std::setw(11) << status << std::setw(45)
+  cout << std::setw(25) << testCase << std::setw(11) << status << std::setw(35)
   << details << endl;
 }
 
 int main(){
   // Test cases
-  cout << endl << std::setw(90) << "Test case" << std::setw(11) << "Status";
-  cout << std::setw(45) << "Details" << endl;
-  cout << std::string(146, '-') << endl;
+  cout << endl << std::setw(25) << "Test case" << std::setw(11) << "Status";
+  cout << std::setw(35) << "Details" << endl;
+  cout << std::string(71, '-') << endl;
 
   test(1, "A");
   test(26, "Z");
