@@ -13,7 +13,7 @@ make
 The exact commands run by `make` are as follows:
 
 ```
-g++ -Wall -O0 -pipe -fno-plt -fPIC excel_column.c -o excel_column
+g++ -Wall -O0 -pipe -fno-plt -fPIC excel_column.cpp -o excel_column
 ```
 
 There are no arguments; the test cases are hard-coded into the C++ file. Example output:
